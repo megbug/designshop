@@ -1,0 +1,146 @@
+/* ================================================
+
+Generals
+
+================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'karla-reg';
+    src: url(../fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'karla-bold';
+    src: url(../fonts/Karla-Bold.ttf);
+}
+
+html {
+    font-size: 10px;
+    font-family: 'karla-reg';
+}
+
+/* 
+header
+*/
+
+header {
+    width: 85%;
+    margin: 7vh auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'karla-bold';
+}
+
+header h1:hover {
+    color: #848484;
+}
+
+header nav a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #000;
+}
+
+header nav a:hover {
+    color: #848484;
+}
+
+header nav a:nth-of-type(2){
+    padding: 60px;
+}
+
+header div {
+    display: none;
+}
+
+header div span {
+    display: block;
+    height: 5px;
+    width: 25px;
+    background-color: #000;
+    margin: 2px 0;
+}
+
+/* 
+main
+ */
+
+h2 {
+    font-size: 3rem;
+}
+
+.article-form p {
+    font-size: 2.4rem;
+    margin: 2vh 0;
+    color: #848484;
+}
+
+main {
+        width: 85%;
+        margin: 2vh auto;
+}
+
+.article-form {
+    width: 100%;
+    text-align: center;
+    margin: 33vh auto;
+}
+
+.article-form form input {
+    display: block;
+    margin: 3vh auto;
+}
+
+.article-form form input {
+    width: 40%;
+    text-align: center;
+    padding: 7px;
+    border-radius: 7px;
+    border: 1.5px solid #848484;
+}
+
+.article-form form input[type="submit"] {
+    width: 20%;
+} 
+
+#popup {
+    width: 100%;
+    text-align: center;
+    margin: 35vh auto;
+}
+
+#popup p {
+    font-size: 2rem;
+    margin: 2vh 0;
+    color: #848484;
+}
+
+#popup a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+}
+/* 
+footer
+*/
+
+footer {
+    width: 85%;
+    margin: 2vh auto;
+}
+
+footer div {
+    font-size: 1.2rem;
+    color: #848484;
+    margin-top: 3vh;
+}

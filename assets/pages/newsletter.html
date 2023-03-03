@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/newsletter.css">
+    <link rel="stylesheet" href="../css/mq-600.css">
+    <title>Newsletter</title>
+</head>
+<body>
+    <header>
+        <h1>THE DESIGN SHOP</h1>
+        <nav>
+            <a href="#">Weekly Recommendations</a>
+            <a href="#">Contact</a>
+            <a href="#">TDB</a>
+        </nav>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <article class="article-form" id="article_form">
+            <h2>Do you like our shop and the products you can order?</h2>
+            <p> Subscribe to be in the loop. Hearing about updates and recommendations!</p>
+            <form action="#" onsubmit="return false">
+                <input class="email" type="email" name="email" id="user_email" placeholder="Write your email here" required>
+                <input class="btn" type="submit" value="Subscribe" onclick="openPopup()">
+            </form>
+        </article>
+        <div id="popup">
+            <h2>YOUR EMAIL HAS BEEN CONFIRMED</h2>
+            <h2>THANKS FOR SUBSCRIBING!</h2>
+            <p>Now you just need to confirm your email address - please click the link in the email we sent you. Thanks!</p>
+            <a href="../../index.html" onclick="closePopup()">BACK TO DESIGNER-SHOP.COM</a>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>© 2019 The Design Shop ● The Design Blog</p>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
+

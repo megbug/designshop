@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px){
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header div {
+        display: block;
+    }
+
+    .product-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu h2 {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    /* newsletter */
+
+    .article-form {
+    margin: 28vh auto;
+}
+
+.article-form form input {
+    width: 60%;
+}
+
+.article-form form input[type="submit"] {
+    width: 40%;
+} 
+
+#popup {
+    margin: 31vh auto;
+}
+}
